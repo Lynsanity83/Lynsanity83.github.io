@@ -70,13 +70,18 @@ body {
 }
 
 .skillsSection {
-    background-color: #7ed6df;
+    background-color: #00cec9;
     color: #fff;
 }
 
 .skill {
     text-align: center;
     margin-left: 10px;
+}
+
+.skill h4 {
+    margin-top: 50px;
+    color: #fff;
 }
 
 .chart {
@@ -94,7 +99,7 @@ body {
 }
 
 .chart .percent {
-    color: #ff7979;
+    color: #fff;
     line-height: 152px;
     display: inline-block;
     font-size: 35px;
@@ -103,3 +108,4 @@ body {
 .chart .percent:after {
     content: '%';
 }
+
