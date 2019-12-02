@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font-size: 14px;
+    font-size: 15px;
     color: #333;
     background-color: #fff;
     letter-spacing: 1px;
@@ -72,6 +72,7 @@ body {
 .skillsSection {
     background-color: #00cec9;
     color: #fff;
+    padding: 25px;
 }
 
 .skill {
@@ -80,8 +81,22 @@ body {
 }
 
 .skill h4 {
-    margin-top: 50px;
+    margin-top: 30px;
     color: #fff;
+}
+
+.skill p {
+    padding: 0px 50px;
+
+}
+
+.row h2 {
+     font-size: 45px;
+ }
+
+.col-md-12 p {
+    margin-bottom: 50px;
+    font-size: 20px;
 }
 
 .chart {
