@@ -69,6 +69,42 @@ body {
     max-width: 100%;
 }
 
+.contactBox {
+    margin-top: 50px;
+}
+
+.contactSection {
+    background-color: #fff;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+.contactSection .subHeading {
+    margin-bottom: 5px;
+}
+
+.email,
+.resume {
+    color: #000;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.email {
+    margin: 5px 10px;
+}
+
+.email:hover,
+.resume:hover {
+    text-decoration: none;
+    background-color: #fff;
+}
+
+
 .skillsSection {
     background-color: #00cec9;
     color: #fff;
@@ -124,3 +160,48 @@ body {
     content: '%';
 }
 
+.copyrightSection {
+    background-color: #fff;
+    color: #000;
+    padding: 30px 5px;
+}
+
+.copyrightSection p {
+    margin: 0;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    font-size:15px;
+}
+
+.copyrightSection a:hover {
+    text-decoration: none;
+}
+
+#navigation {
+    background-color: #00cec9;
+    padding: 20px 10px;
+    z-index: 100;
+}
+
+#navigation li {
+    padding: 0 10px;
+}
+
+#navigation li a {
+    color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    background: url(../img/iconMenu.png);
+    background-size: 100%;
+}
+
+.fixedNav #navigation {
+    position: fixed;
+    top: 0;
+}
